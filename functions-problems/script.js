@@ -1,5 +1,6 @@
 
 
+
 const statement = "This is going to be a beautiful day";
 
 function findLongestWord(statement){
