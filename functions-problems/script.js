@@ -1,5 +1,9 @@
 
-
+/*
+Functions Problem 1: Longest Word
+Write a JavaScript function that 
+accepts a string as a parameter and find the longest word within the string.
+*/
 
 const statement = "This is going to be a beautiful day";
 
