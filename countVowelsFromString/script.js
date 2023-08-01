@@ -15,7 +15,16 @@ function getVowels(str) {
  // step 4 :lowercase the words so they're the same case as vowels array,
  //then split into array of each letter
 
+ const arrayOfLetters = str.toLowerCase().split("");
 
+ // step 5 : Write a For loop.
 
+ for (let i = 0; i < arrayOfLetters.length; i++) {
+     if (arrayOfVowels.include(arrayOfLetters[i])) {
+        numberOfvowels +=1
+     }
+ }
+  return numberOfvowels;
 }
 
+console.log(getVowels("This is getting interesting"));
