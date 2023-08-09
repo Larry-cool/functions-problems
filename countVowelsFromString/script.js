@@ -20,7 +20,7 @@ function getVowels(str) {
  // step 5 : Write a For loop.
 
  for (let i = 0; i < arrayOfLetters.length; i++) {
-     if (arrayOfVowels.include(arrayOfLetters[i])) {
+     if (arrayOfVowels.includes(arrayOfLetters[i])) {
         numberOfvowels +=1
      }
  }
