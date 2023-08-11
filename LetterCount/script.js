@@ -5,14 +5,15 @@
 
 
 // Step 1 : Write a Js function that accepts two arguments, a string and a letter.
-function stat(str, letter){
+function countLetter(str, letter){
   
   // Step 2 : declare a variable to count the letter.
   let letterCount = 0;
   
+  
   //write a For loop.
   for(x = 0; x < str.length; x++) {
-    if(str.charAt(x) == letter){
+    if(str.charAt(x) == letter.toLowerCase()){
       letterCount += 1;
     }
       
@@ -21,4 +22,4 @@ function stat(str, letter){
 }
 
 
- console.log(stat("moonschool.com", "o"));
+ console.log(countLetter("moonschool.com", "O"));
