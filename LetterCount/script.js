@@ -13,7 +13,7 @@ function countLetter(str, letter){
   
   //write a For loop.
   for(x = 0; x < str.length; x++) {
-    if(str.charAt(x) == letter.toLowerCase()){
+    if(str.charAt(x).toLowerCase() === letter.toLowerCase()){
       letterCount += 1;
     }
       
@@ -22,4 +22,4 @@ function countLetter(str, letter){
 }
 
 
- console.log(countLetter("moonschool.com", "O"));
+ console.log(countLetter("mOOnschool.com", "O"));
