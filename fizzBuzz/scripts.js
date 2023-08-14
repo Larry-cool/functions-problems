@@ -8,8 +8,10 @@ function fizzBuzz(){
   
 // Step 2 : write the For Loop
   for(let i = 1; i <= 100; i++){
+
+// Step 3 : declare a variable with an empty string to store the word value
     let word = ""; 
-//to reduce conditionals, we can construct the word & check two things instead of three.
+// Step 4:to reduce conditionals, we can create the word & check 2 things instead of 3.
 
     if (i % 3 === 0){                           
       word += "Fizz";
